@@ -9,7 +9,6 @@ type Person struct {
 }
 
 func main() {
-
 	p := Person{
 		First: "Jan",
 		Last:  "Kowalski",
@@ -20,4 +19,5 @@ func main() {
 
 	fmt.Println(p)
 	fmt.Println(pp)
+	fmt.Println(*pp)
 }
