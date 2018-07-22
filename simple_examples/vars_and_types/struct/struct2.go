@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-type Person struct {
-	First string
-	Last  string
-	Age   int
-}
-
 func main() {
+	type Person struct {
+		First string
+		Last  string
+		Age   int
+	}
+
 	p := Person{
 		First: "Jan",
 		Last:  "Kowalski",

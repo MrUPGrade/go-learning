@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
-type Human struct {
-	name string
-	age  int
-}
-
 func main() {
+	type Human struct {
+		name string
+		age  int
+	}
+
 	h1 := Human{"Stefan", 123}
 
 	fmt.Println(h1)

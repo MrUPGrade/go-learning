@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
-type User struct {
-	name string
-	age  int
-}
-
 func main() {
+	type User struct {
+		name string
+		age  int
+	}
+
 	users := []User{
 		{name: "bob", age: 123},
 		{name: "tom", age: 33},
