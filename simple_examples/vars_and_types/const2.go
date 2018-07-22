@@ -2,12 +2,11 @@ package main
 
 import "fmt"
 
-const (
-	num1 = 1
-	num2 = 3.12
-)
-
 func main() {
+	const (
+		num2 = 3.12
+	)
+
 	var f1 float32
 	var f2 float64
 
