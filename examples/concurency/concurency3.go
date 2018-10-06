@@ -14,7 +14,7 @@ func main() {
 			nubmers <- x
 		}
 		nubmers <- -1
-		time.Sleep(time.Microsecond*100000)
+		time.Sleep(time.Microsecond * 100000)
 		// Use close
 		//close(nubmers)
 	}()

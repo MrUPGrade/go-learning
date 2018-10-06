@@ -1,8 +1,8 @@
 package main
 
 import (
-	"time"
 	"fmt"
+	"time"
 )
 
 func main() {
@@ -14,7 +14,7 @@ func main() {
 
 				numbers <- y + x
 			}
-			time.Sleep(time.Millisecond*2)
+			time.Sleep(time.Millisecond * 2)
 		}
 		close(numbers)
 	}()

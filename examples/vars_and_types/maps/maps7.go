@@ -12,7 +12,6 @@ func main() {
 	fmt.Println(m)
 	fmt.Println(m["one"])
 
-
 	if value, exist := m["two"]; exist {
 		fmt.Println("Two: ", value)
 	}

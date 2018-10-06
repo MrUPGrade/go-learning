@@ -11,8 +11,7 @@ func main() {
 		fmt.Println(b)
 	})
 
-
-	go func (t string) {
+	go func(t string) {
 		fmt.Println(t)
 	}("Test 2")
 }

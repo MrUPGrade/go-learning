@@ -1,9 +1,9 @@
 package main
 
 import (
-	"os"
-	"io"
 	"fmt"
+	"io"
+	"os"
 	"strconv"
 )
 

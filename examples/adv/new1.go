@@ -4,8 +4,8 @@ import "fmt"
 
 func main() {
 	type User struct {
-		name string
-		age int
+		name  string
+		age   int
 		score float32
 	}
 

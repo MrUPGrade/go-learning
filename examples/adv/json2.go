@@ -7,7 +7,8 @@ import (
 
 func main() {
 	type t1 struct {
-		Name  string `json:"JSONName"`
+		Name string `json:"JSONName"`
+		// Lower case means unexported
 		value string `json:"JSONValue"`
 		Age   int32
 	}

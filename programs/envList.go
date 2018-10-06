@@ -1,10 +1,10 @@
 package main
 
 import (
-	"os"
 	"errors"
-	"strings"
 	"fmt"
+	"os"
+	"strings"
 )
 
 func getEnvVars(names []string) (map[string]string, error) {

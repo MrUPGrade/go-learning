@@ -9,7 +9,7 @@ func printType(i interface{}) {
 	case int:
 		fmt.Println("Int")
 	default:
-		fmt.Println("Unsuported")
+		fmt.Println("Unsupported")
 	}
 }
 

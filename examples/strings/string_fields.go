@@ -1,13 +1,13 @@
 package main
 
 import (
-	"strings"
 	"fmt"
+	"strings"
 )
 
 func main() {
 	input := "this is a log string with lots of spaces"
-	fields := strings.SplitN(input, " ", 3)
+	fields := strings.Fields(input)
 
 	fmt.Println("len:", len(fields))
 	for idx, val := range fields {
