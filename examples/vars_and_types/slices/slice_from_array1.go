@@ -7,8 +7,8 @@ func main() {
 	s1 := arr[:]
 	arr[1] = 99
 
-	fmt.Printf("%T: %[1]v\n", arr)
-	fmt.Printf("%T: %[1]v\n", s1)
+	fmt.Printf("%6T: %[1]v len: %[2]v\n", arr, len(arr))
+	fmt.Printf("%6T: %[1]v len: %[2]v\n", s1, len(s1))
 
 	s1[1] = 100
 
@@ -17,6 +17,6 @@ func main() {
 
 	s1[2] = 102
 
-	fmt.Printf("%T: %[1]v\n", arr)
-	fmt.Printf("%T: %[1]v\n", s1)
+	fmt.Printf("%6T: %[1]v len: %[2]v\n", arr, len(arr))
+	fmt.Printf("%6T: %[1]v len: %[2]v\n", s1, len(s1))
 }

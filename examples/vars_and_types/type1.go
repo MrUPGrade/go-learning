@@ -2,9 +2,9 @@ package main
 
 import "fmt"
 
-type MyInt int
-
 func main() {
+	type MyInt int
+
 	var m1 MyInt
 	var m2 MyInt
 
