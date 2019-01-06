@@ -11,7 +11,10 @@ func main() {
 	fmt.Printf("%T: %[1]v\n", s1)
 
 	s1[1] = 100
+
+	// At this point, s1 points to new array
 	s1 = append(s1, 3, 4)
+
 	s1[2] = 102
 
 	fmt.Printf("%T: %[1]v\n", arr)
