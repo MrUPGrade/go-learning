@@ -21,7 +21,7 @@ func main() {
 
 		if err != nil {
 			errorMsg := "Argument '" + args[i] + "' is not a number"
-			io.WriteString(os.Stderr, errorMsg)
+			_, _ = io.WriteString(os.Stderr, errorMsg)
 			continue
 		}
 
@@ -29,7 +29,7 @@ func main() {
 	}
 
 	if len(numbers) == 0 {
-		io.WriteString(os.Stderr, "No numbers were provided")
+		_, _ = io.WriteString(os.Stderr, "No numbers were provided")
 		os.Exit(1)
 	}
 
