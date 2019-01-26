@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 )
 
 func main() {
@@ -13,5 +14,6 @@ func main() {
 		}()
 		fmt.Println("end if")
 	}
+	os.Exit(-1)
 	fmt.Println("end program")
 }
