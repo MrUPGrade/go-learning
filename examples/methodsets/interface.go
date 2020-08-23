@@ -27,7 +27,6 @@ func pointPrinter(points ...Printable) {
 	for _, v := range points {
 		v.PrintData()
 	}
-
 }
 
 func main() {
